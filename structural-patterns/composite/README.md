@@ -1,9 +1,7 @@
-# Adapter Pattern
+# Composite Pattern
 
-The adapter pattern is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code.
+The composite pattern is a partitioning design pattern. The composite pattern describes that a group of objects is to be treated in the same way as a single instance of an object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
 
-For eg the PSR-3: Logger Interface is impletented by many logging libraries. But if you want to use a logging library that does not implement PSR-3 you can use an adapter to make it work with PSR-3.
-Or if you want to have a LoggerManager that supports different logging libraries you can use an adapter to make them work with the LoggerManager.
-
+An example of this is a file system. A file system is composed of files and directories. A directory can contain files and other directories. The client can treat a file and a directory as a single object.
 To run the example run ```composer udpate``` on builder dir.
 then run ```php index.php```

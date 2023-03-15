@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'klejdisjorgji/adapter-pattern',
+        'name' => 'klejdisjorgji/composite-pattern',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '72168d58867e6799932c5cee1ec14999584af7b2',
+        'reference' => '2782ba25dc76e0852eaf9b7e9632198233a52391',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'klejdisjorgji/adapter-pattern' => array(
+        'klejdisjorgji/composite-pattern' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '72168d58867e6799932c5cee1ec14999584af7b2',
+            'reference' => '2782ba25dc76e0852eaf9b7e9632198233a52391',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

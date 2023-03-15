@@ -1,5 +1,5 @@
 {
-    "name": "klejdisjorgji/adapter-pattern",
+    "name": "klejdisjorgji/composite-pattern",
     "type": "project",
     "autoload": {
         "classmap": ["src/"]

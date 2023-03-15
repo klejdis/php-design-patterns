@@ -7,7 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Logger' => $baseDir . '/src/Logger.php',
-    'LoggerInterface' => $baseDir . '/src/LoggerInterface.php',
-    'LoggerManager' => $baseDir . '/src/LoggerManager.php',
+    'Composite' => $baseDir . '/src/Composite.php',
+    'File' => $baseDir . '/src/File.php',
+    'Folder' => $baseDir . '/src/Folder.php',
+    'Leaf' => $baseDir . '/src/Leaf.php',
+    'LeafInterface' => $baseDir . '/src/LeafInterface.php',
 );
