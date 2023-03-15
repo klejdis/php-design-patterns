@@ -1,6 +1,6 @@
 <?php
 
-class Logger extends Singleton
+class CustomLogger extends Singleton
 {
     public static function log(string $message): void
     {

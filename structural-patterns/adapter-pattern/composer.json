@@ -1,0 +1,15 @@
+{
+    "name": "klejdisjorgji/adapter-pattern",
+    "type": "project",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "klejdis jorgji",
+            "email": "jorgji.klejdis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
